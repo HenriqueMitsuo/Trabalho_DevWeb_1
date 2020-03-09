@@ -40,8 +40,12 @@
 .nav-links li {
     display: inline-block;
     padding: 16px;
-    margin-left: -4px;
+    margin-left: -6px;
     transition: background-color 0.5s;
+}
+
+.nav-links i {
+    padding-right: 4px;
 }
 
 .active {

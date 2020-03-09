@@ -35,6 +35,7 @@
 .nav-links li{
 
     display: inline-block;
+    margin-left: -4px;
     padding: 13px 30px 13px 30px;
     transition: background-color 0.5s;
 }

@@ -1,59 +1,58 @@
-.nav-bar{
+:root {
+    --backgroundColor: #42A5F5;
+    /* BLUE 400 */
+    --accentColor: #1976D2;
+    /* BLUE 700 */
+    --textColor: #FAFAFA;
+    /* GREY 50 */
+}
 
+.nav-bar {
     width: 100%;
-    height: 50px;
-    background-color: #42A5F5; /*BLUE 400*/
-}
-
-.nav-header{
-
-    display: inline;
-}
-
-.nav-header > .nav-title{
-
-    display: inline-block;
-    font-size: 170%;
-    padding: 10px 10px 10px 100px;
-}
-
-.nav-links{
-
-    display: inline;
-    float: right;
-}
-
-.nav-links > ul{
-
-    list-style: none;
-    margin: 0px;
-    padding: 0px;
+    display: flex;
+    justify-content: space-between;
     font-size: 120%;
-    padding-right: 100px;
+    background-color: var(--backgroundColor);
 }
 
-.nav-links li{
+.nav-header {
+    display: inline;
+}
 
+.nav-header>.nav-title {
     display: inline-block;
+    height: 100%;
+    padding: 16px;
+    padding-left: 64px;
+}
+
+.nav-links {
+    display: inline-block;
+}
+
+.nav-links>ul {
+    list-style: none;
+    padding: 0;
+    padding-right: 64px;
+    margin: 0;
+}
+
+.nav-links li {
+    display: inline-block;
+    padding: 16px;
     margin-left: -4px;
-    padding: 13px 30px 13px 30px;
     transition: background-color 0.5s;
 }
 
-.active{
-
-    background-color: #1976D2; /*BLUE 700*/
+.active {
+    background-color: var(--accentColor);
 }
 
-.nav-links li:hover{
-
-    background-color: #1976D2; /*BLUE 700*/
+.nav-links li:hover {
+    background-color: var(--accentColor);
 }
 
-.nav-links li > a{
-
+.nav-links li>a {
     text-decoration: none;
-    color: #FAFAFA;
-    
+    color: var(--textColor);
 }
-

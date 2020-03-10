@@ -1,18 +1,9 @@
-:root {
-    --backgroundColor: #42A5F5;
-    /* BLUE 400 */
-    --accentColor: #1976D2;
-    /* BLUE 700 */
-    --textColor: #FAFAFA;
-    /* GREY 50 */
-}
-
 .nav-bar {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    font-size: 120%;
-    background-color: var(--backgroundColor);
+    font-size: 100%;
+    background-color: var(--primaryColor);
 }
 
 .nav-header {

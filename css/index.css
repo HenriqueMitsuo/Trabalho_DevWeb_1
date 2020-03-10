@@ -1,10 +1,37 @@
-
 @import url('https://fonts.googleapis.com/css?family=Fira+Sans&display=swap');
 
-body{
+:root {
+    --primaryColor: #42A5F5;
+    /* BLUE 400 */
+    --accentColor: #1976D2;
+    /* BLUE 700 */
+    --textColor: #FAFAFA;
+    /* GREY 50 */
+}
 
+body {
     margin: 0;
     font-family: 'Fira Sans', sans-serif;
     background-color: #ECEFF1;
     color: #FAFAFA;
+}
+
+.main-image {
+    position: relative;
+    width: 100%;
+    height: 60vh;
+}
+
+.main-image>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.main-image>.image-description {
+    position: absolute;
+    color: black;
+    font-size: 130%;
+    left: 32px;
+    bottom: 32px;
 }

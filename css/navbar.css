@@ -4,7 +4,6 @@
     justify-content: space-between;
     font-size: 120%;
     background-color: var(--primaryColor);
-    box-shadow: 0px 0px 4px 0px black;
 }
 
 .nav-header {
@@ -15,7 +14,7 @@
     display: inline-block;
     height: 100%;
     padding: 16px;
-    padding-left: 32px;
+    margin-left: 32px;
 }
 
 .nav-links {
@@ -25,8 +24,8 @@
 .nav-links>ul {
     list-style: none;
     padding: 0;
-    padding-right: 32px;
     margin: 0;
+    margin-right: 32px;
 }
 
 .nav-links li {

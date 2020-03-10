@@ -36,3 +36,22 @@ body {
     left: 32px;
     bottom: 32px;
 }
+
+.card {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: var(--primaryColor);
+}
+
+.card>.card-image {
+    width: 50%;
+    padding: 32px;
+    object-fit: cover;
+}
+
+.card>.card-description {
+    width: 50%;
+    font-size: 150%;
+    padding: 32px;
+}

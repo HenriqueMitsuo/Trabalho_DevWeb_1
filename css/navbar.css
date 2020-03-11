@@ -1,3 +1,4 @@
+/* NAVBAR */
 .nav-bar {
     width: 100%;
     display: flex;
@@ -50,4 +51,13 @@
 .nav-links li>a {
     text-decoration: none;
     color: var(--textColor);
+}
+
+/* FOOTER */
+.footer-bar {
+    display: flex;
+    justify-content: space-between;
+    color: var(--textBlack);
+    font-size: 120%;
+    padding: 20px;
 }

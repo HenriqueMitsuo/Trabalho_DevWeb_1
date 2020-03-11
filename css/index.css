@@ -1,13 +1,17 @@
 @import url("https://fonts.googleapis.com/css?family=Fira+Sans&display=swap");
 
 :root {
-  --primaryColor: #42a5f5; /* BLUE 400 */
-  --accentColor: #1976d2; /* BLUE 700 */
-  --altColor: #f55742; /* BLUE 700 */
+  --primaryColor: #42a5f5;
+  /* BLUE 400 */
+  --accentColor: #1976d2;
+  /* BLUE 700 */
+  --altColor: #f55742;
+  /* BLUE 700 */
   --altColor2: #f5b042;
   --accentAltColot2: #FFA000;
   --textBlack: #34495e;
-  --textColor: #fafafa; /* GREY 50 */
+  --textColor: #fafafa;
+  /* GREY 50 */
 }
 
 body {
@@ -19,17 +23,18 @@ body {
 
 .main-image {
   position: relative;
+  z-index: -1;
   width: 100%;
   height: 75vh;
 }
 
-.main-image > img {
+.main-image>img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
-.main-image > .image-description {
+.main-image>.image-description {
   position: absolute;
   color: #fafafa;
   font-size: 120%;
@@ -44,13 +49,13 @@ body {
   background-color: var(--primaryColor);
 }
 
-.card > .card-image {
+.card>.card-image {
   width: 50%;
   margin: 32px;
   object-fit: cover;
 }
 
-.card > .card-description {
+.card>.card-description {
   width: 50%;
   font-size: 120%;
   margin: 32px;
@@ -63,7 +68,7 @@ body {
   background-color: var(--altColor);
 }
 
-.card-alt > .card-knowmore {
+.card-alt>.card-knowmore {
   width: 50%;
   margin: 32px;
   font-size: 120%;
@@ -72,31 +77,30 @@ body {
   text-align: center;
 }
 
-.button-group > button {
-  background-color: var(--altColor2); 
+.button-group>button {
   border: none;
-  font-weight: bold;
+  background-color: var(--altColor2);
   color: var(--textColor);
-  padding: 15px 32px;
+  font-weight: bold;
   text-align: center;
-  text-decoration: none;
+  padding: 15px;
   font-size: 100%;
-  margin: 4px 2px;
+  margin-top: 12px;
   cursor: pointer;
   transition: background-color 0.5s;
 }
 
-.button-group > button:hover {
-  background-color: var(--accentAltColot2); 
+.button-group>button:hover {
+  background-color: var(--accentAltColot2);
 }
 
-.card-alt > .card-image-left {
+.card-alt>.card-image-left {
   width: 25%;
   margin: 32px;
   object-fit: cover;
 }
 
-.card-alt > .card-image-right {
+.card-alt>.card-image-right {
   width: 25%;
   margin: 32px;
   object-fit: cover;

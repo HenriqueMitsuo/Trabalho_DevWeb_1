@@ -3,7 +3,7 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
-    font-size: 120%;
+    font-size: 100%;
     background-color: var(--primaryColor);
 }
 
@@ -57,7 +57,8 @@
 .footer-bar {
     display: flex;
     justify-content: space-between;
-    color: var(--textBlack);
-    font-size: 120%;
+    background-color: var(--textBlack);
+    color: var(--textColor);
+    font-size: 100%;
     padding: 20px;
 }

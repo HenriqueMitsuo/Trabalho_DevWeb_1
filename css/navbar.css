@@ -1,4 +1,22 @@
-/* NAVBAR */
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans&display=swap");
+
+:root {
+    --primaryColor: #42a5f5;
+    --accentColor: #1976d2;
+    --altColor: #f55742;
+    --altColor2: #f5b042;
+    --accentAltColot2: #FFA000;
+    --textBlack: #34495e;
+    --textColor: #fafafa;
+}
+
+body {
+    margin: 0;
+    font-family: "Fira Sans", sans-serif;
+    background-color: #eceff1;
+    color: #fafafa;
+}
+
 .nav-bar {
     width: 100%;
     display: flex;

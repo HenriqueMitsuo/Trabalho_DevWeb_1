@@ -1,10 +1,12 @@
-.galeria-grid {
+.gallery-grid {
     width: 80%;
     margin: auto;
     margin-bottom: 35px;
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Repete três colunas, cada uma 1/3 da tela */
-    grid-template-rows: repeat(3, 1fr); /* O mesmo que acima, para linhas*/
+    grid-template-columns: repeat(3, 1fr);
+    /* Repete três colunas, cada uma 1/3 da tela */
+    grid-template-rows: repeat(3, 1fr);
+    /* O mesmo que acima, para linhas*/
     grid-gap: 25px;
 }
 
@@ -13,8 +15,21 @@ h1 {
     color: var(--textBlack);
 }
 
-img {
+.gallery-item {
+    position: relative;
+}
+
+.gallery-item>img {
     width: 100%;
     height: 100%;
 }
-   
+
+.gallery-item>.item-description {
+    background-color: var(--primaryColor);
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    padding: 12px;
+    text-align: center;
+}

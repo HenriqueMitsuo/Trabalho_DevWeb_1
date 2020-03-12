@@ -41,7 +41,7 @@
   width: 100%;
   display: flex;
   flex-direction: row;
-  background-color: var(--altColor);
+  background-color: var(--secondaryColor);
 }
 
 .card-alt>.card-knowmore {
@@ -55,8 +55,8 @@
 
 .button-group>button {
   border: none;
-  background-color: var(--altColor2);
-  color: var(--textColor);
+  background-color: var(--tertiaryColor);
+  color: var(--textWhite);
   font-weight: bold;
   text-align: center;
   padding: 15px;
@@ -67,7 +67,7 @@
 }
 
 .button-group>button:hover {
-  background-color: var(--accentAltColot2);
+  background-color: var(--accentTertiaryColor);
 }
 
 .card-alt>.card-image-left {

@@ -12,57 +12,57 @@
 
 .main-image>.image-description {
   position: absolute;
-  color: #fafafa;
-  font-size: 120%;
   left: 32px;
   bottom: 32px;
+  font-size: 120%;
+  color: var(--textWhite);
 }
 
 .card {
-  width: 100%;
-  display: flex;
   flex-direction: row;
+  display: flex;
+  width: 100%;
   background-color: var(--primaryColor);
 }
 
 .card>.card-image {
-  width: 50%;
   margin: 32px;
+  width: 50%;
   object-fit: cover;
 }
 
 .card>.card-description {
+  margin: 32px;
   width: 50%;
   font-size: 120%;
-  margin: 32px;
 }
 
 .card-alt {
-  width: 100%;
-  display: flex;
   flex-direction: row;
+  display: flex;
+  width: 100%;
   background-color: var(--secondaryColor);
 }
 
 .card-alt>.card-knowmore {
-  width: 50%;
   margin: 32px;
-  font-size: 120%;
+  width: 50%;
   padding: 10px;
   border-radius: 20px;
+  font-size: 120%;
   text-align: center;
 }
 
 .button-group>button {
+  margin-top: 12px;
+  padding: 15px;
   border: none;
   background-color: var(--tertiaryColor);
-  color: var(--textWhite);
+  cursor: pointer;
+  font-size: 100%;
   font-weight: bold;
   text-align: center;
-  padding: 15px;
-  font-size: 100%;
-  margin-top: 12px;
-  cursor: pointer;
+  color: var(--textWhite);
   transition: background-color 0.5s;
 }
 
@@ -70,13 +70,7 @@
   background-color: var(--accentTertiaryColor);
 }
 
-.card-alt>.card-image-left {
-  width: 25%;
-  margin: 32px;
-  object-fit: cover;
-}
-
-.card-alt>.card-image-right {
+.card-alt>.card-image {
   width: 25%;
   margin: 32px;
   object-fit: cover;

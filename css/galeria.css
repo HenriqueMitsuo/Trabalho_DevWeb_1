@@ -1,13 +1,11 @@
 .gallery-grid {
+    display: grid;
+    grid-gap: 25px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
     width: 80%;
     margin: auto;
     margin-bottom: 35px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    /* Repete três colunas, cada uma 1/3 da tela */
-    grid-template-rows: repeat(3, 1fr);
-    /* O mesmo que acima, para linhas*/
-    grid-gap: 25px;
 }
 
 h1 {

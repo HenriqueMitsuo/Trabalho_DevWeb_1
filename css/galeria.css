@@ -1,0 +1,7 @@
+.grid-galeria {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Repete três colunas, cada uma 1/3 da tela */
+    grid-template-rows: repeat(3, 5vw); /* Repete três linhas, cada uma tomando 5% do tamanho atual da tela */
+    grid-gap: 25px;
+}
+   

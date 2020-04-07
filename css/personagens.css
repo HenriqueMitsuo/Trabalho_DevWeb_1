@@ -1,0 +1,13 @@
+.flex-personagem {
+    display: flex;
+    flex-direction: column;
+}
+
+.personagem-item {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--primaryColor);
+    color: black;
+    margin: 30px;
+}
+

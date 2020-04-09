@@ -11,3 +11,13 @@
     margin: 30px;
 }
 
+.personagem-item > img {
+    min-height: 300px;
+}
+
+.personagem-item > .desc {
+    color: white;
+    font-size: 120%;
+    padding: 32px;
+    text-align: justify;
+}

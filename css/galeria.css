@@ -24,10 +24,12 @@ h1 {
 
 .gallery-item>.item-description {
     background-color: var(--primaryColor);
+    opacity: 80%;
     position: absolute;
     left: 0px;
     bottom: 0px;
     right: 0px;
     padding: 12px;
     text-align: center;
+    font-size: 80%;
 }

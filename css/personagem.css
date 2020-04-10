@@ -1,0 +1,63 @@
+:root {
+    --primaryColor: #42a5f5;
+    --accentColor: #1976d2;
+    --secondaryColor: #f55742;
+    --tertiaryColor: #f5b042;
+    --accentTertiaryColor: #FFA000;
+    --textBlack: #34495e;
+    --textWhite: #fafafa;
+}
+
+.grid-container {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 0.2fr;
+    grid-template-rows: 2fr 1fr 0.5fr;
+    grid-template-areas: 
+    "head head character-name"
+    "text text character-name"
+    "img1 img2 character-name";
+    border: 2px solid var(--textBlack);
+    border-radius: 5px;
+    height: 100vh;
+    margin: 1em;
+    box-shadow: 9px 12px 26px -4px rgba(0,0,0,0.68);
+}
+
+.grid-image-head {
+
+    grid-area: head;
+    background: url(https://via.placeholder.com/1200x500/34495e/42a5f5?text=CHARACTER+IMG);
+}
+
+.grid-character {
+
+    grid-area: character-name;
+    background-color: var(--textBlack);
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    text-align: center;
+    padding: 30px;
+    font-size: 200%;
+}
+
+.grid-description {
+
+    grid-area: text;
+    background-color: var(--accentColor);
+    padding: 20px;
+}
+
+.grid-image-1 {
+
+    grid-area: img1;
+    background: url(https://via.placeholder.com/500x100/fafafa/f55742);
+    border: 1px solid var(--textBlack);
+}
+
+.grid-image-2 {
+    
+    grid-area: img2;
+    background: url(https://via.placeholder.com/500x100/fafafa/FFA000);
+    border: 1px solid var(--textBlack);
+}

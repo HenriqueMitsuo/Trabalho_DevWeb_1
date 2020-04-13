@@ -77,3 +77,33 @@
   margin: 32px;
   object-fit: cover;
 }
+
+.card-table {
+  background-color: var(--primaryColor);
+  padding: 32px;
+}
+
+table {
+  border: 1px solid var(--accentColor);
+  margin: 0 auto;
+  border-collapse: collapse;
+  font-size: 120%;
+}
+
+th {
+  background-color: var(--secondaryColor);
+  padding: 12px;
+}
+
+tr {
+  background-color: var(--primaryColor);
+}
+
+tr:nth-child(even){
+  background-color: var(--accentColor);
+}
+
+td {
+  text-align: center;
+  padding: 12px;
+}

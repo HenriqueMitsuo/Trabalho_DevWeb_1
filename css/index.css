@@ -27,7 +27,7 @@
   background-color: var(--primaryColor);
 }
 
-.card>.card-image {
+.card>img {
   margin: 32px;
   width: 50%;
   object-fit: contain;
@@ -44,6 +44,12 @@
   display: flex;
   width: 100%;
   background-color: var(--secondaryColor);
+}
+
+.card-alt>img {
+  width: 25%;
+  margin: 32px;
+  object-fit: cover;
 }
 
 .card-alt>.card-knowmore {
@@ -72,38 +78,32 @@
   background-color: var(--accentTertiaryColor);
 }
 
-.card-alt>.card-image {
-  width: 25%;
-  margin: 32px;
-  object-fit: cover;
-}
-
 .card-table {
   background-color: var(--primaryColor);
   padding: 32px;
 }
 
-table {
+.card-table table {
   border: 1px solid var(--accentColor);
   margin: 0 auto;
   border-collapse: collapse;
   font-size: 120%;
 }
 
-th {
+.card-table th {
   background-color: var(--secondaryColor);
   padding: 12px;
 }
 
-tr {
+.card-table tr {
   background-color: var(--primaryColor);
 }
 
-tr:nth-child(even){
+.card-table tr:nth-child(even){
   background-color: var(--accentColor);
 }
 
-td {
+.card-table td {
   text-align: center;
   padding: 12px;
 }

@@ -4,8 +4,8 @@
 
 # Desenvolvedores
 
-- **Henrique Mitsuo Imanobu de Brito**
-- **Moisés Duarte Júnior**
+- **Henrique Mitsuo Imanobu de Brito** - [GITHUB](https://github.com/HenriqueMitsuo)
+- **Moisés Duarte Júnior** - [GITHUB](https://github.com/MoisesDuarte)
 
 # Link
 
